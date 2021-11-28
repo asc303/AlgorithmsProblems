@@ -33,17 +33,8 @@ namespace Algorithms_Programs
                         insertionSort.Sort(arr);
                         insertionSort.PrintArray(arr);                        
                         break;
+              
                     case 4:
-                        int[] arr1 = { 12, 11, 13, 5, 6 };
-                        BubbleSort.BubbleSortInArray(arr1);
-                        BubbleSort.PrintArray(arr1);
-                        break;
-                    case 5:
-                        int[] arr2 = { 38, 27, 43, 3, 9, 82, 10 };
-                        MergeSort.Sort(arr2, 0, arr2.Length - 1);
-                        MergeSort.PrintArray(arr2);
-                        break;
-                    case 6:
                         flag = false;
                         break;
                 }
