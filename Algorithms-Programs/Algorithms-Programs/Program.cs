@@ -38,12 +38,8 @@ namespace Algorithms_Programs
                         BubbleSort.BubbleSortInArray(arr1);
                         BubbleSort.PrintArray(arr1);
                         break;
+                    
                     case 5:
-                        int[] arr2 = { 38, 27, 43, 3, 9, 82, 10 };
-                        MergeSort.Sort(arr2, 0, arr2.Length - 1);
-                        MergeSort.PrintArray(arr2);
-                        break;
-                    case 6:
                         flag = false;
                         break;
                 }
